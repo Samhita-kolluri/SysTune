@@ -89,20 +89,20 @@ The script will perform the following steps:
 
 ## Code Description
 
-### 1. config.py
+### 1. [config.py](./config.py)  
 Configuration settings and lists of parameters.
 
-### 2. prompt_generator.py
+### 2. [prompt_generator.py](./prompt_generator.py)
 Generates prompts for the LLM based on previous performance and parameters.
 
-### 3. option_evaluator.py
+### 3. [option_evaluator.py](./option_evaluator.py)
 Parses the LLM responses to extract new parameter values.
 
-### 4. safety_enforcer.py
+### 4. [safety_enforcer.py](./safety_enforces.py)
 Ensures the suggested parameters are safe and valid.
 
-### 5. performance_analyzer.py
+### 5. [performance_analyzer.py](./performance_analyzer.py)
 Compiles FFmpeg with new compiler flags, sets system parameters, runs FFmpeg, and measures performance.
 
-### 6. main.py
+### 6. [main.py](./main.py)
 The main script that orchestrates the tuning process.
